@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://wildmeowth.github.io/assets/images/favicon.png">
+	<title>野猫嗷嗷嗷</title>
+	<link rel="apple-touch-icon-precomposed" href="https://wildmeowth.github.io/assets/images/avatar.jpg">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<nav>
+		<a href="https://wildmeowth.github.io/" target="_blank" class="active">首页</a><a class="clip"></a>
+		<a href="https://wildmeowth.github.io/categories/" target="_blank">归档</a><a class="clip"></a> 
+		<a href="https://wildmeowth.github.io/dates/" target="_blank">文章</a>
+	</nav>
+
+	<body>
+		<div class="background">
+			<canvas id="startrack"></canvas>
+			<div class="cover"></div>
+		</div>
+		<div class="main">
+			<div class="ch intro">
+				<div class="container">
+					<div class="hello">
+						<h1 id="slogan">思考中...</h1>
+						<h2>
+							<div class="circle"> <span></span> <span></span>
+								<span></span>
+							</div>加油！野猫嗷嗷嗷
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="ch about">
+				<div class="container">
+					<h2 class="chtitle">Who am <span>WildMeowth</span>？</h2>
+					<div class="clear">
+						<div class="introduct">
+							<!-- <img class="avatar"
+								src=""> -->
+							<P style="padding-top:1em;">时光之外，山水之间。</p>
+							<br>
+							<!-- input yyyy.M.d to calc age, leave it blank then default 18 years old -->
+							<div id="birthday" style="display:none;">1995.8.1</div>
+							<p>你好，这里是野猫嗷嗷嗷，<a id="js-age">18</a>岁，是程序员，热爱计算机互联网事业，对有趣的世界和可能有趣的你充满好奇，野猫嗷嗷嗷在努力...
+							</p> <br>
+							<p>
+								不以物喜，不以己悲。<br>
+								<br>
+							</p>
+							<div class="chatbox">
+								<div class="line loading"> <span></span>
+									<span></span> <span></span>
+								</div>
+							</div>
+						</div>
+						<ul class="skill clear">
+							<li>
+								<p>JAVA</p>
+								<div class="progress">
+									<div style="width:70%;"></div>
+									<span>不断学习不断增长中的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>HTML5/CSS3</p>
+								<div class="progress">
+									<div style="width:60%;"></div>
+									<span>制作网站程度的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>JavaScript</p>
+								<div class="progress">
+									<div style="width:60%;"></div>
+									<span>使用现代轮子程度的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>数据库</p>
+								<div class="progress">
+									<div style="width:60%;">
+									</div><span>增删改查的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>洞察</p>
+								<div class="progress">
+									<div style="width:60%;"></div>
+									<span>观测世界程度的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>音乐</p>
+								<div class="progress">
+									<div style="width:50%;"></div>
+									<span>费劲，准备学吉他</span>
+								</div>
+							</li>
+							<li>
+								<p>恋爱能力</p>
+								<div class="progress">
+									<div style="width:1%;"></div>
+									<span>此项绝缘</span>
+								</div>
+							</li>
+							<li>
+								<p>魔法</p>
+								<div class="progress">
+									<div style="width:10%;"></div>
+									<span>甚至比恋爱能力强</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="find ch">
+				<div class="container links">
+					<h2 class="chtitle">野猫嗷嗷嗷出没的<span>地方</span></h2>
+					<div class="clear col-3">
+						<a href="mailto:sddzok@163.com" target="_blank">
+							<div class="item"> 
+								<div class="bg" style="background-color:#28a9e0"></div> 
+								<div class="inner"> <i class="icon-mail"></i> <span>Mail</span> </div> 
+							</div> 
+						</a>
+						<a href="https://wildmeowth.github.io/assets/images/wechatQR.jpg" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#07c160"></div>
+								<div class="inner"> <i class="icon-wechat"></i> <span>微信公众号</span> </div>
+							</div>
+						</a>
+						<a href="https://space.bilibili.com/8841042?spm_id_from=333.337.0.0"
+							target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#f9a2a8"></div>
+								<div class="inner"> <i class="icon-bilibili"></i> <span>Bilibili</span> </div>
+							</div>
+						</a>
+					</div>
+					<div class="clear">
+						<a href="">
+							<div class="item">
+								<div class="bg" style="background-color:#0f88eb"></div>
+								<div class="inner"> <i class="icon-zhihu"></i> <span>知乎</span> </div>
+							</div>
+						</a>
+						<a href="">
+							<div class="item">
+								<div class="bg" style="background-color:#e6162d"></div>
+								<div class="inner"> <i class="icon-weibo"></i> <span>Weibo</span> </div>
+							</div>
+						</a>
+						<a href="https://github.com/wildmeowth" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#24292f"></div>
+								<div class="inner"> <i class="icon-github"></i> <span>Github</span> </div>
+							</div>
+						</a>
+						<a href="https://music.163.com/#/user/event?id=112005515" target="_blank"> 
+							<div class="item"> 
+								<div class="bg" style="background-color:#f12d35"></div>
+								<div class="inner"> <i class="icon-netease_music"></i> <span>网易云音乐</span> </div> 
+							</div> 
+						</a> 
+						<a href="">
+							<div class="item">
+								<div class="bg" style="background-color:#4e6ef2"></div>
+								<div class="inner"> <i class="icon-baidu"></i> <span>Baidu</span> </div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="gate ch">
+				<div class="container links">
+					<h2 class="chtitle">野猫嗷嗷嗷的<span>其他目录</span></h2>
+
+					<!-- 友链 -->
+					<div class="clear"> <a href="https://wildmeowth.github.io" target="_blank">
+							<div class="item">
+								<div class="avatar"> <img
+										src="https://wildmeowth.github.io/assets/images/avatar.jpg">
+								</div>
+								<div class="inner">
+									<h5>野猫嗷嗷嗷</h5>
+									<p>我的博客网站</p>
+								</div>
+							</div>
+						</a>
+
+						<a href="https://wildmeowth.github.io/assets/images/wechatQR.jpg" target="_blank">
+							<div class="item">
+								<div class="avatar"> <img
+										src="https://wildmeowth.github.io/assets/images/wechatQR.jpg">
+								</div>
+								<div class="inner">
+									<h5>微信公众号</h5>
+									<p>不负人间理想</p>
+								</div>
+							</div>
+						</a>
+
+						<a href="https://wildmeowth.github.io/resume" target="_blank">
+							<div class="item">
+								<div class="avatar"> <img
+										src="https://wildmeowth.github.io/resume/favicon.png">
+								</div>
+								<div class="inner">
+									<h5>恰饭</h5>
+									<p>我的个人简历</p>
+								</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="footer ch">
+			<div class="container">
+				<h3>野猫嗷嗷嗷在努力</h3>
+				<p>断剑重铸之日，骑士归来之时</p>
+				<p class="c"><a href="https://github.com/wildmeowth" target="_blank">Say hello to me @ wildmeowth</a></p>
+			</div>
+		</div>
+		</div>
+		<script src="js/main.js"></script>
+		</script>
+
+		<audio autoplay>
+			<source src="https://api.uomg.com/api/rand.music?sort=热歌榜" type="audio/mpeg">
+		</audio>
+
+	</body>
+
+</html>
