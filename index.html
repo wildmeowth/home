@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/x-icon" href="https://wildmeowth.github.io/assets/images/favicon.png">
+	<link rel="icon" type="image/x-icon" href="https://wildmeowth.github.io/assets/images/favicon.ico">
 	<title>野猫嗷嗷嗷</title>
 	<link rel="apple-touch-icon-precomposed" href="https://wildmeowth.github.io/assets/images/avatar.jpg">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -13,9 +13,9 @@
 
 <body>
 	<nav>
-		<a href="https://wildmeowth.github.io/" target="_blank" class="active">首页</a><a class="clip"></a>
-		<a href="https://wildmeowth.github.io/categories/" target="_blank">归档</a><a class="clip"></a> 
-		<a href="https://wildmeowth.github.io/dates/" target="_blank">文章</a>
+		<a href="https://www.mew.wang/home" class="active">首页</a><a class="clip"></a>
+		<a href="https://www.mew.wang/categories/" target="_blank">归档</a><a class="clip"></a> 
+		<a href="https://www.mew.wang/" target="_blank">文章</a>
 	</nav>
 
 	<body>
@@ -124,13 +124,13 @@
 				<div class="container links">
 					<h2 class="chtitle">野猫嗷嗷嗷出没的<span>地方</span></h2>
 					<div class="clear col-3">
-						<a href="mailto:sddzok@163.com" target="_blank">
+						<a href="mailto:iam@mew.wang" target="_blank">
 							<div class="item"> 
 								<div class="bg" style="background-color:#28a9e0"></div> 
 								<div class="inner"> <i class="icon-mail"></i> <span>Mail</span> </div> 
 							</div> 
 						</a>
-						<a href="https://wildmeowth.github.io/assets/images/wechatQR.jpg" target="_blank">
+						<a href="https://www.mew.wang/assets/images/wechatQR.jpg" target="_blank">
 							<div class="item">
 								<div class="bg" style="background-color:#07c160"></div>
 								<div class="inner"> <i class="icon-wechat"></i> <span>微信公众号</span> </div>
@@ -183,7 +183,7 @@
 					<h2 class="chtitle">野猫嗷嗷嗷的<span>其他目录</span></h2>
 
 					<!-- 友链 -->
-					<div class="clear"> <a href="https://wildmeowth.github.io" target="_blank">
+					<div class="clear"> <a href="https://www.mew.wang" target="_blank">
 							<div class="item">
 								<div class="avatar"> <img
 										src="https://wildmeowth.github.io/assets/images/avatar.jpg">
@@ -195,7 +195,7 @@
 							</div>
 						</a>
 
-						<a href="https://wildmeowth.github.io/assets/images/wechatQR.jpg" target="_blank">
+						<a href="https://www.mew.wang/assets/images/wechatQR.jpg" target="_blank">
 							<div class="item">
 								<div class="avatar"> <img
 										src="https://wildmeowth.github.io/assets/images/wechatQR.jpg">
@@ -207,7 +207,7 @@
 							</div>
 						</a>
 
-						<a href="https://wildmeowth.github.io/resume" target="_blank">
+						<a href="https://www.mew.wang/resume" target="_blank">
 							<div class="item">
 								<div class="avatar"> <img
 										src="https://wildmeowth.github.io/resume/favicon.png">
@@ -236,9 +236,19 @@
 		<script src="js/main.js"></script>
 		</script>
 
-		<audio autoplay>
-			<source src="https://api.uomg.com/api/rand.music?sort=热歌榜" type="audio/mpeg">
-		</audio>
+		<!-- require APlayer -->
+		<link rel="stylesheet" href="css/APlayer.min.css">
+		<script src="js/APlayer.min.js"></script>
+		<!-- require MetingJS -->
+		<script src="js/Meting.js"></script>
+		<meting-js
+		  server="netease"
+		  type="playlist"
+		  id="7444844570"
+		  fixed="true"
+		  autoplay="true"
+		  lrcdefault="hide">
+		</meting-js>
 
 	</body>
 

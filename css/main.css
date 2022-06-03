@@ -125,7 +125,6 @@ html {
     -webkit-font-smoothing: antialiased;
     color: #fff;
     line-height: 1.5;
-    min-width: 1150px;
     background-color: #212121;
     font-size: 14px;
     overflow-x: hidden
@@ -360,8 +359,8 @@ nav a:hover {
 
 .container {
     position: relative;
-    width: 1000px;
-    margin: 0 auto;
+    width: auto;
+    margin: 0 5%;
     height: 100%;
     padding: 20px 0
 }
@@ -797,7 +796,7 @@ ul.skill li .progress div {
 
 @media screen and (min-width:1400px) {
     .container {
-        width: 70%
+        margin: 0 15%;
     }
 
     nav a {
@@ -805,7 +804,13 @@ ul.skill li .progress div {
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1400px) {
+    .container {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width:820px) {
 
     body,
     html {
@@ -813,7 +818,6 @@ ul.skill li .progress div {
     }
 
     .container {
-        width: auto;
         margin: 0 5%
     }
 
@@ -952,5 +956,21 @@ ul.skill li .progress div {
     .footer h3,
     .footer p {
         letter-spacing: .2em
+    }
+}
+.aplayer, .aplayer-body {
+    bottom: 50% !important;
+    z-index: 2345;
+    color: #000;
+}
+
+.aplayer-narrow .aplayer-body, .aplayer-narrow .aplayer-miniswitcher, .aplayer-narrow .aplayer-pic {
+    background: none !important;
+}
+
+@media screen and (max-width:820px) {
+    .aplayer, .aplayer-body {
+        bottom: 55px !important;
+        width: 80% !important;
     }
 }
